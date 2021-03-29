@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner num = new Scanner(System.in);
+
+    int X = num.nextInt();
+    System.out.println("X값은 " + X + "입니다.");
+
+    int Y = num.nextInt();
+    System.out.println("Y값은 " + Y + "입니다.");
+
+    System.out.println("합계는 " + (X + Y) + "입니다.");
+
+    System.out.println("평균은 " + (X + Y) / 2 + "입니다.");
+  }
+}
